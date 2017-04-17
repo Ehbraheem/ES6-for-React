@@ -16,7 +16,9 @@
       "env",
       "react"
     ],
-    "plugins": ["transform-class-properties"]
+    "plugins": [
+      "transform-class-properties"
+    ]
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -33,6 +35,7 @@
   },
   "dependencies": {
     "axios": "^0.16.0",
+    "babel-polyfill": "^6.23.0",
     "prop-types": "^15.5.4",
     "react": "^16.0.0-alpha.5",
     "react-dom": "^16.0.0-alpha.5",
